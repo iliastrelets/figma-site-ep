@@ -644,3 +644,58 @@ h3,
     color: #150A26;
     margin: 0 0 10px 0;
 }
+.program_subtitle {
+    font-size: 16px;
+    color: #64748b;
+    margin: 0;
+}
+
+.table_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.schedule_table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.schedule_table th,
+.schedule_table td {
+    padding: 20px;
+    border-bottom: 1px solid #f1f0f5;
+}
+
+.schedule_table th {
+    background-color: #150A26;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.schedule_table th:first-child,
+.schedule_table td.time_cell {
+    text-align: center;
+    font-weight: bold;
+    color: #150A26;
+    width: 120px;
+}
+
+.artist_slot {
+    background-color: #ede9fe;
+    color: #150A26;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+    display: block-flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 4px solid #7C3AED;
+}
