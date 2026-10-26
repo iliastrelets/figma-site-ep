@@ -238,3 +238,23 @@ h3,
     font-weight: bold;
     color: #150A26;
 }
+
+#experience {
+    position: relative;
+    text-align: center;
+    padding: 70px 40px;
+}
+.eyebrow {
+    color: #7C3AED;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+#experience h2 {
+    font-size: 32px;
+    margin: 0;
+}
+.section_subtitle {
+    color: #52526b;
+    margin: 10px 0 0 0;
+}
