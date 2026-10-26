@@ -12,30 +12,57 @@ header  {
 }
 #header_menu1 {
     margin: 0;
-    padding: 0;
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #150A26;
-    width: 960;
-    height: 36;
     color: #CBD5E1;
+    font-size: 13px;
 }
 #header_menu2 {
     margin: 0;
-    padding: 0 40px 0 40px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    gap: 40px;
 }
 #header ul {
     margin: 0;
-    padding: 0 297px 0 298px; 
+    padding: 0 0 16px 0; 
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     gap: 40px;
-    width: auto;
+}
+#header ul li{
+    cursor: pointer;
+}
+#header_menu2 button {
+    background-color: #7C3AED;
+    border: none;
+    width: 126px;
+    height: 38px;
+    border-radius: 54px;
+    color: white;
+    font-size: 600;
+    cursor: poiner;
+}
+#search_box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #FAF8FF;
+    border: 1px colid #e7e3f2;
+    border-radius: 999px;
+    padding: 10px 18px;
+    color: #52526b;
+    font-size: 14px;
+}
+#logo   {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
 }
