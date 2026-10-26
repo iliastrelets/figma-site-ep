@@ -446,7 +446,7 @@ h3,
 }
 #testimonials {
     text-align: center;
-    padding: 60px 40px 100px 40;
+    padding: 60px 40px 100px 40px;
     background-color: #ffffff;
 }
 
@@ -553,10 +553,13 @@ h3,
     display: flex;
     gap: 8px;
     justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
 }
 
 .dot {
-    width: 8;
+    width: 8px;
     height: 8px;
     border-radius: 50%;
     background-color: #e7e3f2;
