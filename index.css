@@ -591,3 +591,22 @@ h3,
     margin: 0 0 40px 0;
     color: #150A26;
 }
+.gallery_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery_right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.gallery_row_top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
