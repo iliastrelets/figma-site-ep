@@ -444,3 +444,14 @@ h3,
 .ticket_btn:hover {
     background-color: #6d28d9;
 }
+#testimonials {
+    text-align: center;
+    padding: 60px 40px 100px 40;
+    background-color: #ffffff;
+}
+
+#testimonials h2 {
+    font-size: 32px;
+    margin: 0;
+    color: #150A26;
+}
