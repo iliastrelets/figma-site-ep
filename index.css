@@ -620,3 +620,27 @@ h3,
 .gallery_main img {
     height: 100%;
 }
+#program {
+    padding: 80px 40px;
+    background-color: #f8f7fc;
+    text-align: middle; 
+}
+
+.program_header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.program_header .eyebrow {
+    font-size: 14px;
+    color: #7C3AED;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.program_header h2 {
+    font-size: 36px;
+    color: #150A26;
+    margin: 0 0 10px 0;
+}
