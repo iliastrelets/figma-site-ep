@@ -250,7 +250,7 @@ h3,
     font-size: 14px;
     margin: 0 0 8px 0;
 }
-#experience h2 {
+#exprience h2 {
     font-size: 32px;
     margin: 0;
 }
@@ -302,4 +302,50 @@ h3,
     color: #52526b;
     font-size: 14px;
     line-height: 1.5;
+}
+#tickets {
+    text-align: center;
+    padding: 40px 40px 80px 40px;
+}
+
+#tickets h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+#tickets_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.ticket_card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ticket_card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.ticket_img_wrapper {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: #f3f0f9;
+}
+
+.ticket_img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
