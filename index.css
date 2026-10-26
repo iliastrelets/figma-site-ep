@@ -349,3 +349,25 @@ h3,
     object-fit: cover;
     display: block;
 }
+.ticket_badge {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.ticket_badge.discount {
+    background-color: #db2777;
+}
+
+.ticket_badge.vip {
+    background-color: #db2777;
+}
+
+.ticket_badge.nou {
+    background-color: #db2777;
+}
