@@ -16,19 +16,26 @@ header  {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #150A26;
+    width: 960;
+    height: 36;
+    color: #CBD5E1;
 }
 #header_menu2 {
     margin: 0;
-    padding: 0;
+    padding: 0 40px 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 120px;
 }
 #header ul {
     margin: 0;
-    padding: 0;
+    padding: 0 297px 0 298px; 
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
+    gap: 40px;
+    width: auto;
 }
